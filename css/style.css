@@ -1,0 +1,24 @@
+.slider-bg-img-1{
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/images/cover/cover-1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+}
+.slider-bg-img-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/images/cover/cover-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider-bg-img-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/images/cover/cover-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-height{
+   height: 80vh;
+}
