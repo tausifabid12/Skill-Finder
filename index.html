@@ -123,7 +123,7 @@
     <main>
         <!-- discover our course section start -->
         <section>
-            <div class="container py-5">
+            <div class="container py-5 my-5">
                 <div class="text-center p-5">
                     <h1>Discover Our Popular Courses</h1>
                     <p>Find what you are looking for Here.Instant personalized results at Seekweb! Easy Acces To
@@ -221,7 +221,7 @@
         </section>
         <!-- discover our course section end -->
 
-        <section class="exploreInstitute ">
+        <section class="exploreInstitute my-5 ">
             <div class="container">
                 <div class="row ">
                     <div class="col-12 col-md-6 ">
@@ -232,8 +232,12 @@
                     <div class="col-12 col-md-6">
                         <div class="py-5">
                             <h1 class="py-4">Explore The elearning Institute</h1>
-                            <p class="py-4">Since 2002, Advanced Marketing Institute has been helping marketing, sales, and copy professionals improve their interactions with analysis and research. Try our famous headline analyzer for free and see how your text stacks up.Improve Your Marketing With Research & Analysis Tools</p>
-                            <p class="py-4">Increase Content Marketing Success With Helpful Headline Tips & Tools.Increase Content Marketing Success With Helpful Headline Tips & Tools</p>
+                            <p class="py-4">Since 2002, Advanced Marketing Institute has been helping marketing, sales,
+                                and copy professionals improve their interactions with analysis and research. Try our
+                                famous headline analyzer for free and see how your text stacks up.Improve Your Marketing
+                                With Research & Analysis Tools</p>
+                            <p class="py-4">Increase Content Marketing Success With Helpful Headline Tips &
+                                Tools.Increase Content Marketing Success With Helpful Headline Tips & Tools</p>
 
                             <button class="btn btn-info fw-bold text-white my-4">Read more</button>
                         </div>
@@ -243,8 +247,56 @@
 
         </section>
 
-        <!-- start of ready to join section  -->
+        <!-- ---------------
+            start of ready to join section  
+        ------------------------------->
+
+        <!-- registration modal start  -->
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-info text-white fw-bold">Submit</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- registration modal end -->
+        <section class="container d-flex align-items-center bg-info rounded-2 my-5" style="height: 250px ;">
+            <div class="row p-5">
+                <div class="col-12 col-lg-10 text-white fw-bolder">
+                    <h1>Ready to join?</h1>
+                    <p class="pe-5">Join our online couses now. This is the best course you will find in whole interent
+                        so don't you
+                        waste time join our world class course now.</p>
+                </div>
+                <div class="col-12 col-lg-2 text-white fw-bolder d-flex align-items-center ">
+                    <button class="btn btn-light text-info py-2 px-3 fw-bold"  data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                </div>
+            </div>
+
+        </section>
         <!-- end of ready to join section  -->
+
+        <!-- Frequently Asked Questions section start -->
+        
+        <!-- Frequently Asked Questions section end -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
